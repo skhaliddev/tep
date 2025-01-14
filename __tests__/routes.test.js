@@ -14,7 +14,6 @@ describe('endpoints testing', ()=>{
   })
   test('should return hi but in json', async()=>{
     const res = await request(app).get('/')
-    console.log(res)
     expect(res.text).toEqual('coming from the main')
   })
 })

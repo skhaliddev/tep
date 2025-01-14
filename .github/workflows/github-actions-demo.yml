@@ -2,7 +2,7 @@ name: CI/CD for react Todo
 run-name: Jest tests
 on:
   push:
-    branches: [master, master2]
+    branches: [master]
 jobs:
   # Build Job
   build:

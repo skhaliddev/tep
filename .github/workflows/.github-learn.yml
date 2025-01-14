@@ -1,0 +1,10 @@
+name: Learning Github Actions
+run-name: actions
+on:
+  push: 
+    branches: [master2]
+jobs:
+  my_first_job:
+    name: My first job
+  my_second_job:
+    name: My second job
